@@ -1,0 +1,277 @@
+/*start main reulz*/
+body
+{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    height:fit-content;
+}
+/*end main ruelz*/
+
+
+
+/* Start header*/
+.container
+{
+    width: 1100px;
+    margin: auto;
+}
+
+.header
+{
+    background-color: #7D0000;
+   overflow: hidden;
+}
+
+
+ .header .nav ul
+{
+    list-style: none;
+    float: right;
+}
+.header .nav ul li
+{
+    float: left;
+    font-weight: bold;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #eeeeee;
+    padding: 0 20px;
+}
+.header .nav ul li a:hover{color: black;}
+
+
+/*end header*/
+
+/*start one page*/
+.home{overflow: hidden;}
+.home .slider
+{   
+   background-image: url(img/banner.jpg);
+   background-size: 100% 110%;
+   height: 90vh; 
+}
+.home  .intro{height:550px;font-size: xx-large;}
+.home  .intro h1 
+{   
+   margin: 0;
+   color: azure;
+   font-size: 5rem;
+  padding-top:110px ;
+  padding-right: 60px;
+ 
+}
+.home  .intro p {font-size: large;color: #ffffff;}
+.home  .intro button
+{
+    color: #ff0000;
+    background-color:white;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.home  .intro button:hover
+{
+    background-color: #ff0000;
+    color: #eeeeee;
+    cursor: pointer;
+}
+/*end one page*/
+
+/*Start About*/
+.about{overflow: hidden;}
+.img{padding-right:15px;}
+.about .img{padding-top: 120px; height: 350px;}
+
+.about .infor
+{   
+   position:relative;
+    bottom:120px;
+    width: 50%;
+    float: right;
+}
+.about .infor h3{font-weight:1000;color: #888687;margin: 0;padding-top: 10px;}
+
+.about button
+{
+    color: #ff0000;
+    background-color:white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+ button:hover
+{
+    background-color: #ff0000;
+    color: #eeeeee;
+    cursor: pointer;
+}
+hr{color: #ff0000;width: 1000;height: 1px;}
+/*End About*/
+
+/*Start brand*/
+.brand
+{
+    overflow: hidden;
+    padding-top:30px ;
+    padding-bottom:30px ;
+    background-color: #88868769;
+   
+}
+.brand .our{background-color: white;}
+.our h1
+{
+    text-align: center;
+    font-size: 100px;;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.562);
+
+}
+.brand .phone
+{
+    float: left;
+    width: 30.33333%;
+    height: 380px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 17px;
+    background-color: white;
+}
+.brand .phone>img,h3,p{position: relative;top: 25px;}
+.phone span{color: #ff0000;}
+.brand button
+{
+   
+    color: #ff0000;
+    background-color:white;
+    width: 190px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+   left: 450px;
+}
+.brand button:hover
+{
+    background-color: #ff0000;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+/*End brand*/
+/*start special page*/
+.home2{overflow: hidden; }
+.home2 .slider2
+{   
+   background-image: url(img/banner1.png);
+   background-size: cover;
+}
+.home2  .intro2{height:550px;font-size: xx-large;}
+.home2  .intro2 h1 
+{   
+   margin: 0;
+   color: azure;
+  padding-top:110px ;
+  padding-right: 60px;
+ 
+}
+.home2  .intro2 p {font-size: large;color: #ffffff;}
+.home2  .intro2 button
+{
+    color: #ff0000;
+    background-color:white;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.home2  .intro2 button:hover
+{
+    background-color: #ff0000;
+    color: #eeeeee;
+    cursor: pointer;
+}
+.spe h1
+{
+    text-align: center;
+    font-size: 100px;;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.562);
+    letter-spacing: 6px;
+
+}
+/*end special page*/
+
+
+/*start contact page*/
+.con input[type="text"]
+{
+    width: 510px;
+    height: 50px;
+    border-color: #ff0000;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+.cont input[type="text"]
+{
+    width:1044px;
+    height: 60px;
+    border-color: #ff0000;
+    border-width: 2px;
+    border-style: solid;
+    
+}
+.cont input[type="message"]
+{
+    width:1044px;
+    height: 140px;
+    border-color: #ff0000;
+    border-width: 2px;
+    border-style: solid;
+    
+    
+}
+
+.sub button
+{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: #eeeeee;
+    font-weight: bold;
+    position: relative;
+    left: 450px;
+    font-size: x-large;
+   
+}
+.sub button:hover
+{
+  background-color: #ff0000;
+}
+.contact h1
+{
+    text-align: center;
+    font-size: 100px;;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.562);
+}
+/*end   contact page*/
+
+
+/*start footer*/
+.foot
+{
+    background-color: black;
+    color: #eeeeee;
+    text-align: center;
+    height: 350px;
+}
+/*start footer*/
